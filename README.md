@@ -62,9 +62,7 @@ POST /clients
   "phone": "(84)91234-5678"
 }
 🧾 Exemplo de criação de ordem
-json
-Copy
-Edit
+
 POST /orders
 
 {
@@ -88,7 +86,7 @@ Execute o projeto no IntelliJ ou via terminal:
 A aplicação estará disponível em:
 📍 http://localhost:8080
 
-⚠️ Observações
+## ⚠️ Observações
 O banco está configurado no arquivo application.yml para acessar o MySQL na porta 3308.
 
 O projeto utiliza ddl-auto: update, portanto as tabelas serão geradas automaticamente.
