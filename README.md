@@ -61,7 +61,7 @@ Este projeto é uma API REST desenvolvida em Java com Spring Boot para o gerenci
   "phone": "(84)91234-5678"
 }
 
-### 🧾 Exemplo de criação de ordem
+## 🧾 Exemplo de criação de ordem
 
 POST /orders
 
@@ -71,7 +71,7 @@ POST /orders
   "price": 550.0,
   "status": "ABERTA"
 }
-### 🗂️ Como executar o projeto localmente
+## 🗂️ Como executar o projeto localmente
 Clone este repositório:
 git clone https://github.com/seu-usuario/desafio-os.git
 cd desafio-os
@@ -91,7 +91,7 @@ O banco está configurado no arquivo application.yml para acessar o MySQL na por
 
 O projeto utiliza ddl-auto: update, portanto as tabelas serão geradas automaticamente.
 
-📌 Futuras melhorias (to-do)
+## 📌 Futuras melhorias (to-do)
 Atualização de status da OS (PUT /orders/{id}/status)
 
 Documentação Swagger
