@@ -53,15 +53,15 @@ Este projeto é uma API REST desenvolvida em Java com Spring Boot para o gerenci
 
 ## 🧪 Exemplo de criação de cliente
 
-```json
-POST /clients
+### POST /clients
 
 {
   "name": "João da Silva",
   "email": "joao@email.com",
   "phone": "(84)91234-5678"
 }
-🧾 Exemplo de criação de ordem
+
+### 🧾 Exemplo de criação de ordem
 
 POST /orders
 
@@ -71,7 +71,7 @@ POST /orders
   "price": 550.0,
   "status": "ABERTA"
 }
-🗂️ Como executar o projeto localmente
+### 🗂️ Como executar o projeto localmente
 Clone este repositório:
 git clone https://github.com/seu-usuario/desafio-os.git
 cd desafio-os
