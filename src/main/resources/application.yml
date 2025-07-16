@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: desafioOs
+  datasource:
+    url: jdbc:mysql://localhost:3308/desafioOS
+    username: root
+    password: Enos!2486
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: True
+
+server:
+  port: 8080
